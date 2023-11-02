@@ -67,7 +67,8 @@ public class Main {
 
 
                     int result = (letters.length - words.length) / words.length;
-                    System.out.println("Average length of each word in the " + path + " is " + result);
+                     System.out.println("The number of words in the file is "+words.length);
+                    System.out.println("Average length of each word in the file " + path + " is " + result);
                     try {
                         bufferedReader.close();
                     } catch (IOException e) {
