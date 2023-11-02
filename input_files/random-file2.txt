@@ -1,0 +1,10 @@
+You are tasked with building a simple file processing application
+that processes a batch of text files, performs text analysis on each file,
+ and logs the results concurrently using Java I/O Streams, a logging API,
+ and Executors. The goal is to process multiple files in parallel and
+ maintain a log of the analysis results. Create a directory named "input_files"
+ where you will place text files for processing. These text files may contain random text.
+ 2. Create a directory named "output_logs" where the log files will be written.
+ 3. Create a Java program that does the following:
+ Recursively scans the "input_files" directory for text files.
+ b. For each text file found, create a new thread to process it.
