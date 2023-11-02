@@ -1,0 +1,10 @@
+1. Recursively scan the "input_files" directory for text files.
+2. For each text file found, create a thread to perform text analysis.
+3. In the text analysis thread: Read the text file using Java I/O Streams.
+ b.Analyzethetextancalculate the number of words and the average word length.
+ cLog the analysis results using a logging API.
+4.Useathreadpoolwith Executors to manage concurrent processing.
+5.Generateasummarylog afterprocessingallfiles.
+ThisproblemcombinesJavaI/OStreamslogging, and concurrency using Executors
+to createarobust and efficient file processing application.
+ ghvjjkvycyrctrdvhjvnkvjycrjcbkhvknuyvjmycthexhvdfkncjycjycunch

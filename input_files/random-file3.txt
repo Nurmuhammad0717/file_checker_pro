@@ -1,0 +1,13 @@
+ c. Text analysis: Your program should read the text file, count the
+ number of words, and calculate the average word length for each file.
+ d. Log the analysis results using a logging API (e.g., Log4j or java
+ .util.logging). The log entry should include the file name, the number
+ of words,andtheaverageword length.e. Use a thread pool of Executors
+ tocontrolthe numberofconcurrentfileprocessing threads. Configure
+ thethreadpooltohave a maximum of, for example, 4 threads.
+ f. After processingalltextfiles,generate a summary log that includes
+ the total number of files processedandtheaverage word length across all files.
+ Ensure propererrorhandling for file operations, such as handling exceptions if
+ a file cannotberead.Your Java program should utilize I/O Streams for reading the
+  text files, alogging API for logging results, and Executors to manage concurrent
+  file processing. The program should be modular, well-structured, and efficient.
